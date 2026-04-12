@@ -7,7 +7,7 @@
 body {
     font-family: 'Inter', sans-serif;
     background: #0a0a0a;
-    color: #f0f0f0;
+    color: #f7f4f4;
     overflow-x: hidden;
 }
 
@@ -21,18 +21,18 @@ h1, h2, h3, h4, .navbar-brand {
 .navbar {
     background: rgba(0,0,0,0.95);
     backdrop-filter: blur(10px);
-    box-shadow: 0 2px 20px rgba(255,0,0,0.2);
+    box-shadow: 0 2px 20px rgba(242, 242, 4, 0.2);
     transition: all 0.3s;
 }
 .navbar-brand {
     font-size: 1.8rem;
-    color: #fff !important;
+    color: #ecf40b !important;
 }
 .navbar-brand span {
-    color: #ecde1c;
+    color: #ebebe7;
 }
 .nav-link {
-    color: #ddd !important;
+    color: #f5f0f0 !important;
     font-weight: 600;
     margin: 0 10px;
     transition: 0.3s;
@@ -59,11 +59,11 @@ h1, h2, h3, h4, .navbar-brand {
 .hero-overlay {
     position: absolute;
     top:0; left:0; width:100%; height:100%;
-    background: linear-gradient(45deg, #000000aa, #8b0000aa);
+    background: linear-gradient(45deg, #000000aa, #dded07e8);
 }
 .alpha-highlight {
     color: #ecde1c;
-    text-shadow: 0 0 15px rgba(230,57,70,0.5);
+    text-shadow: 0 0 15px rgba(237, 229, 7, 0.975);
 }
 .btn-primary {
     background: #ecde1c;
@@ -71,12 +71,12 @@ h1, h2, h3, h4, .navbar-brand {
     padding: 12px 30px;
     font-weight: bold;
     transition: 0.3s;
-    box-shadow: 0 4px 14px rgba(230,57,70,0.4);
+    box-shadow: 0 4px 14px rgba(237, 229, 7, 0.888);
 }
 .btn-primary:hover {
-    background: #c1121f;
+    background: #f9f102;
     transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(230,57,70,0.6);
+    box-shadow: 0 8px 25px rgba(237, 229, 7, 0.6);
 }
 .btn-outline-light {
     border-width: 2px;
@@ -98,7 +98,7 @@ h1, h2, h3, h4, .navbar-brand {
     transform: translateY(-12px);
     background: #1a1a1a;
     border-color: #ecde1c;
-    box-shadow: 0 20px 30px rgba(230,57,70,0.2);
+    box-shadow: 0 20px 30px rgba(244, 240, 8, 0.948);
 }
 .parallax-small {
     background-attachment: fixed;
@@ -128,7 +128,7 @@ h1, h2, h3, h4, .navbar-brand {
 }
 .social-icons a:hover {
     background: #ecde1c;
-    color: #fff;
+    color: #070606;
     transform: rotate(360deg) scale(1.1);
 }
 .scroll-top-btn {
@@ -138,7 +138,7 @@ h1, h2, h3, h4, .navbar-brand {
     width: 50px;
     height: 50px;
     background: #ecde1c;
-    color: white;
+    color: rgb(4, 4, 4);
     border: none;
     border-radius: 50%;
     font-size: 22px;
@@ -154,7 +154,7 @@ h1, h2, h3, h4, .navbar-brand {
     visibility: visible;
 }
 .scroll-top-btn:hover {
-    background: #c1121f;
+    background: #f9f102;
     transform: scale(1.1);
 }
 .trainer-card img {
@@ -164,7 +164,7 @@ h1, h2, h3, h4, .navbar-brand {
 .form-control {
     background: #222;
     border: 1px solid #444;
-    color: white;
+    color: rgb(10, 10, 10);
 }
 .form-control:focus {
     background: #2a2a2a;
